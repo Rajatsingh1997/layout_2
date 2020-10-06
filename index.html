@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .navbar {
+      background-color: black;
+      padding: 17px 57px;
+    }
+
+    .navbar a {
+      /* float: left;*/
+      color: rgb(172, 167, 167);
+      padding: 42px 36px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-top: 10px;
+    }
+
+    #large {
+      font-size: large;
+    }
+
+    .box {
+      width: 90%;
+      margin: auto;
+      padding-bottom: 100px;
+    }
+
+    .heading {
+      background-color: rgb(231, 231, 231);
+      padding: 4%;
+      margin-top: 4%;
+    }
+
+    .heading h1 {
+      font-size: 60px;
+      margin-block-start: 0em;
+      margin-block-end: 0.30em;
+    }
+
+    #text {
+      font-size: large;
+    }
+
+    .heading button {
+      background-color: rgb(42, 146, 231);
+      color: white;
+      padding: 8px;
+      border: none;
+      border-radius: 3px;
+    }
+
+    hr {
+      width: 100%;
+      margin: 28px 1px
+    }
+
+    #header {
+      margin-top: -40px;
+      margin-block-end: 0em;
+      padding-bottom: 1px;
+      font-family: ;
+    }
+
+    .cardlist {
+      display: flex;
+      justify-content: space-between;
+      margin-top: -23px;
+    }
+
+    .card {
+      width: 23%;
+      border: 0.5px solid rgb(170, 170, 170);
+      border-radius: 4px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .card img {
+      max-width: 100%;
+      box-sizing: border-box;
+      padding-left: 2px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-right: 2px;
+    }
+
+    .card h2 {
+      margin-block-start: 0.80em;
+      margin-block-end: 0em;
+    }
+
+    .card p {
+      margin-block-start: 0.5em;
+      text-align: center;
+    }
+
+    .card button {
+      margin-bottom: 2em;
+      background-color: rgb(42, 146, 231);
+      color: white;
+      padding: 8px;
+      border: none;
+      border-radius: 3px;
+    }
+    .white{
+      background-color: whitesmoke !important;
+      color: black !important;
+      border: 1px solid #c8c8c8 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="navbar">
+      <a id="large" href="#">Layout 3</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="box">
+      <div class="heading">
+        <h1>Sample Heading</h1>
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolores
+          doloremque vitae ab, sequi consectetur perferendis nihil assumenda error hic beatae iusto deleniti nesciunt
+          quis. Molestiae, perferendis dolorem! Adipisci minus officiis nesciunt, dolores corporis nostrum accusantium
+          accusamus aliquam optio iure possimus unde voluptate quod voluptatum et sequi suscipit molestias debitis.
+        </p>
+        <br>
+        <button>Call to action!</button><br>
+      </div>
+      <hr><br><br>
+      <h2 id="header">Latest Features</h2>
+      <div class="cardlist">
+        <div class="card">
+          <img src="./pic.jpg" alt="image">
+          <h2>Feature Label</h2>
+          <p>Lorem ipsum dolor sit amet,<br /> consectetur adipisicing elit.</p><br>
+          <button>Buy Now!</button>
+          <button class="white">More Info</button>
+        </div>
+        <div class="card">
+          <img src="./pic.jpg" alt="image">
+          <h2>Feature Label</h2>
+          <p>Lorem ipsum dolor sit amet,<br /> consectetur adipisicing elit.</p><br>
+          <button>Buy Now!</button>
+          <button class="white">More Info</button>
+        </div>
+        <div class="card">
+          <img src="./pic.jpg" alt="image">
+          <h2>Feature Label</h2>
+          <p>Lorem ipsum dolor sit amet,<br /> consectetur adipisicing elit.</p><br>
+          <button>Buy Now!</button>
+          <button class="white">More Info</button>
+        </div>
+        <div class="card">
+          <img src="./pic.jpg" alt="image">
+          <h2>Feature Label</h2>
+          <p>Lorem ipsum dolor sit amet,<br /> consectetur adipisicing elit.</p><br>
+          <button>Buy Now!</button>
+          <button class="white">More Info</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
